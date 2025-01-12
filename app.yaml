@@ -1,0 +1,8 @@
+runtime: nodejs20
+env: standard
+env_variables:
+  DATABASE_URL: "postgres://postgres:Encase%40%23777qa@34.47.186.240:5432/lhci"
+handlers:
+  - url: /.*
+    script: auto
+service: lhci-server
